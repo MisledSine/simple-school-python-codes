@@ -1,0 +1,21 @@
+def sunny_msg():
+    print("On a sunny day, sandals are appropriate footwear.")
+
+def rainy_msg():
+    print("On a rainy day, galoshes are appropriate footwear.")
+
+def snowy_msg():
+    print("On a snowy day, boots are appropriate footwear.")
+
+#main
+weather = input("What is the weather? (sunny, rainy, snowy): ")
+
+if weather == "sunny":
+    sunny_msg()
+elif weather == "rainy":
+    rainy_msg()
+elif weather == "snowy":
+    snowy_msg()
+else:
+    print("no weather")
+    
