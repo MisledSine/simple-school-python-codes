@@ -1,0 +1,4 @@
+x = str(input("type a name "))
+y = int(input("pick a number "))
+print (x)
+print (y)
