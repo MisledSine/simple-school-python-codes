@@ -1,0 +1,7 @@
+needs_water = True
+
+print("Needs water: " + str(needs_water))
+
+needs_to_be_repotted = False
+
+print("Needs to be repotted: " + str(needs_to_be_repotted))
